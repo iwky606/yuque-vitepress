@@ -35,12 +35,12 @@
     {
       "id": 198107019,
       "doc_id": "glreugkyt7cbyh2l",
-      "updated": 1733847481000,
+      "updated": 1733847800000,
       "properties": {
         "title": "Docker",
         "urlname": "glreugkyt7cbyh2l",
         "date": "2024-12-10 21:43:06",
-        "updated": "2024-12-11 00:18:01",
+        "updated": "2024-12-11 00:23:20",
         "description": "运行启动相关启动用镜像启动一个容器docker [OPTIONS] run IMAGE  -e：在启动是可以加上这个命令，用于给运行的容器添加环境变量。例如,http_proxy=127.0.0.1:7890  -p：指定端口映射，将主机的端口映射到容器的端口。例如，8080:8080  -v..."
       },
       "catalog": [],
@@ -49,19 +49,256 @@
       "docPath": "docs/docs"
     },
     {
-      "id": 198117651,
-      "doc_id": "icr02w0fev2ogklc",
-      "updated": 1733847537000,
+      "id": 198118040,
+      "doc_id": "vkax2bdy1uowunzh",
+      "updated": 1733848295000,
       "properties": {
-        "title": "MyTest",
-        "urlname": "icr02w0fev2ogklc",
-        "date": "2024-12-11 00:18:47",
-        "updated": "2024-12-11 00:18:57",
-        "description": "123"
+        "title": "MySQL",
+        "urlname": "vkax2bdy1uowunzh",
+        "date": "2024-12-11 00:30:05",
+        "updated": "2024-12-11 00:31:35",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/42461409/1733848228602-48679e45-a422-4c6b-b8e3-ac25b192dc4e.png",
+        "description": "疑问非聚集索引/二级索引 具体是什么意思？为什么不直接指向原始数据？https://blog.csdn.net/moakun/article/details/81813994存储地址，在B+树平衡操作的时候会变地址，那么，其他的索引就要修改，就非常麻烦了语法树怎么构建的？联合索引当遇到范围查询..."
+      },
+      "catalog": [
+        {
+          "title": "Database",
+          "doc_id": "vkax2bdy1uowunzh"
+        }
+      ],
+      "realName": "MySQL",
+      "relativePath": "/Database/MySQL.md",
+      "docPath": "docs/docs/Database"
+    },
+    {
+      "id": 198118094,
+      "doc_id": "dyr3bs1i2qc6478s",
+      "updated": 1733848392000,
+      "properties": {
+        "title": "Linux",
+        "urlname": "dyr3bs1i2qc6478s",
+        "date": "2024-12-11 00:31:45",
+        "updated": "2024-12-11 00:33:12",
+        "description": "解决Ubuntu(20.04)和Windows10双系统时间不同步问题_universal time 不对-CSDN博客命令top命令toptop之后，可以按1查看每个cpu的负载情况设置/禁用服务自启动sudo systemctl enable [servicename]sudo syste..."
       },
       "catalog": [],
-      "realName": "MyTest",
-      "relativePath": "/MyTest.md",
+      "realName": "Linux",
+      "relativePath": "/Linux.md",
+      "docPath": "docs/docs"
+    },
+    {
+      "id": 198118140,
+      "doc_id": "mdgnrd4bgk7h376g",
+      "updated": 1733848420000,
+      "properties": {
+        "title": "Web服务部署",
+        "urlname": "mdgnrd4bgk7h376g",
+        "date": "2024-12-11 00:33:31",
+        "updated": "2024-12-11 00:33:40",
+        "description": "一、1panel部署1.前后端分离如果是前后端分离，最好是创建一个静态网站，再配置服务器的反向代理。2. 证书1panel有自动生成acme证书续签的功能后端分离出现的问题1.出现页面刷新就会404解决方案https://blog.csdn.net/weixin_73060959/articl..."
+      },
+      "catalog": [],
+      "realName": "Web服务部署",
+      "relativePath": "/Web服务部署.md",
+      "docPath": "docs/docs"
+    },
+    {
+      "id": 198118036,
+      "doc_id": "hhits2o8sygc3t5s",
+      "updated": 1733848208000,
+      "properties": {
+        "title": "Database",
+        "urlname": "hhits2o8sygc3t5s",
+        "date": "2024-12-11 00:30:00",
+        "updated": "2024-12-11 00:30:08"
+      },
+      "catalog": [],
+      "realName": "Database",
+      "relativePath": "/Database.md",
+      "docPath": "docs/docs"
+    },
+    {
+      "id": 198118010,
+      "doc_id": "asgpkibv2g7dog23",
+      "updated": 1733848166000,
+      "properties": {
+        "title": "Kafka",
+        "urlname": "asgpkibv2g7dog23",
+        "date": "2024-12-11 00:29:17",
+        "updated": "2024-12-11 00:29:26",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/42461409/1733848164059-8b3ca989-d160-4166-9e3f-2373834103e0.png"
+      },
+      "catalog": [
+        {
+          "title": "MQ",
+          "doc_id": "asgpkibv2g7dog23"
+        }
+      ],
+      "realName": "Kafka",
+      "relativePath": "/MQ/Kafka.md",
+      "docPath": "docs/docs/MQ"
+    },
+    {
+      "id": 198117991,
+      "doc_id": "ad6gqx5gc9wivta5",
+      "updated": 1733848143000,
+      "properties": {
+        "title": "RabbitMQ",
+        "urlname": "ad6gqx5gc9wivta5",
+        "date": "2024-12-11 00:28:47",
+        "updated": "2024-12-11 00:29:03",
+        "description": "RabbitMQ整体架构publisher：消息发送者consumer：消息消费者queue：队列，存储消息exchange：交换机，负责路由消息终端管理用户rabbitmqctl set_user_tags [username] [tag]rabbitmqctl set_user_tags ..."
+      },
+      "catalog": [
+        {
+          "title": "MQ",
+          "doc_id": "ad6gqx5gc9wivta5"
+        }
+      ],
+      "realName": "RabbitMQ",
+      "relativePath": "/MQ/RabbitMQ.md",
+      "docPath": "docs/docs/MQ"
+    },
+    {
+      "id": 198117987,
+      "doc_id": "in4g5ychqp71gqdv",
+      "updated": 1733848125000,
+      "properties": {
+        "title": "MQ",
+        "urlname": "in4g5ychqp71gqdv",
+        "date": "2024-12-11 00:28:39",
+        "updated": "2024-12-11 00:28:45"
+      },
+      "catalog": [],
+      "realName": "MQ",
+      "relativePath": "/MQ.md",
+      "docPath": "docs/docs"
+    },
+    {
+      "id": 198117871,
+      "doc_id": "kkhvt76aahcg3g2x",
+      "updated": 1733847935000,
+      "properties": {
+        "title": "Go",
+        "urlname": "kkhvt76aahcg3g2x",
+        "date": "2024-12-11 00:25:18",
+        "updated": "2024-12-11 00:25:35",
+        "description": "语法const以及iotaconst (     a = iota   //0     b          //1     c          //2     d = \"ha\"   //独立值，iota += 1     e          //\"ha\"   iota += 1     ..."
+      },
+      "catalog": [
+        {
+          "title": "Language",
+          "doc_id": "kkhvt76aahcg3g2x"
+        }
+      ],
+      "realName": "Go",
+      "relativePath": "/Language/Go.md",
+      "docPath": "docs/docs/Language"
+    },
+    {
+      "id": 198117880,
+      "doc_id": "zzc08rziyemyzzf4",
+      "updated": 1733848100000,
+      "properties": {
+        "title": "Python",
+        "urlname": "zzc08rziyemyzzf4",
+        "date": "2024-12-11 00:25:46",
+        "updated": "2024-12-11 00:28:20",
+        "description": "虚拟环境安装虚拟环境库pip install install virtualenv创建虚拟环境exampleEnv为虚拟环境名virtualenv exampleEnv使用虚拟环境source exampleEnv/bin/activate退出虚拟环境windows可能需要在后面加上.batd..."
+      },
+      "catalog": [
+        {
+          "title": "Language",
+          "doc_id": "zzc08rziyemyzzf4"
+        }
+      ],
+      "realName": "Python",
+      "relativePath": "/Language/Python.md",
+      "docPath": "docs/docs/Language"
+    },
+    {
+      "id": 198117841,
+      "doc_id": "dfgo59d95ysm1p3g",
+      "updated": 1733847914000,
+      "properties": {
+        "title": "Maven",
+        "urlname": "dfgo59d95ysm1p3g",
+        "date": "2024-12-11 00:24:29",
+        "updated": "2024-12-11 00:25:14",
+        "description": "常用setting.xml配置~/.m/settings.xml"
+      },
+      "catalog": [
+        {
+          "title": "Language",
+          "doc_id": "dfgo59d95ysm1p3g"
+        },
+        {
+          "title": "Java",
+          "doc_id": "dfgo59d95ysm1p3g"
+        }
+      ],
+      "realName": "Maven",
+      "relativePath": "/Language/Java/Maven.md",
+      "docPath": "docs/docs/Language/Java"
+    },
+    {
+      "id": 198117828,
+      "doc_id": "bktgwgifw6wg02d0",
+      "updated": 1733847868000,
+      "properties": {
+        "title": "JUC",
+        "urlname": "bktgwgifw6wg02d0",
+        "date": "2024-12-11 00:23:56",
+        "updated": "2024-12-11 00:24:28",
+        "description": "线程池线程池的submit线程池除了execute还有submit方法// 提交Runnable任务 Future  submit(Runnable task); // 提交Callable任务  Future  submit(Callable task); // 提交..."
+      },
+      "catalog": [
+        {
+          "title": "Language",
+          "doc_id": "bktgwgifw6wg02d0"
+        },
+        {
+          "title": "Java",
+          "doc_id": "bktgwgifw6wg02d0"
+        }
+      ],
+      "realName": "JUC",
+      "relativePath": "/Language/Java/JUC.md",
+      "docPath": "docs/docs/Language/Java"
+    },
+    {
+      "id": 198117822,
+      "doc_id": "ngt2vcxc34s4hmng",
+      "updated": 1733847826000,
+      "properties": {
+        "title": "Java",
+        "urlname": "ngt2vcxc34s4hmng",
+        "date": "2024-12-11 00:23:41",
+        "updated": "2024-12-11 00:23:46"
+      },
+      "catalog": [
+        {
+          "title": "Language",
+          "doc_id": "ngt2vcxc34s4hmng"
+        }
+      ],
+      "realName": "Java",
+      "relativePath": "/Language/Java.md",
+      "docPath": "docs/docs/Language"
+    },
+    {
+      "id": 198117813,
+      "doc_id": "nmi3qazkzrigs57u",
+      "updated": 1733847818000,
+      "properties": {
+        "title": "Language",
+        "urlname": "nmi3qazkzrigs57u",
+        "date": "2024-12-11 00:23:20",
+        "updated": "2024-12-11 00:23:38"
+      },
+      "catalog": [],
+      "realName": "Language",
+      "relativePath": "/Language.md",
       "docPath": "docs/docs"
     }
   ],
@@ -102,7 +339,7 @@
       "uuid": "0ZaeMo3exiDmnW4e",
       "url": "glreugkyt7cbyh2l",
       "prev_uuid": "wt6ymrwHA3oVfu7B",
-      "sibling_uuid": "9XhJOHSZHV6Hmk0z",
+      "sibling_uuid": "AsinsLzYh--SiX6r",
       "child_uuid": "",
       "parent_uuid": "",
       "doc_id": 198107019,
@@ -113,16 +350,196 @@
     },
     {
       "type": "DOC",
-      "title": "MyTest",
-      "uuid": "9XhJOHSZHV6Hmk0z",
-      "url": "icr02w0fev2ogklc",
+      "title": "Database",
+      "uuid": "AsinsLzYh--SiX6r",
+      "url": "hhits2o8sygc3t5s",
       "prev_uuid": "0ZaeMo3exiDmnW4e",
+      "sibling_uuid": "k47J5q45zbvQtJVf",
+      "child_uuid": "0hkfZzZb6gIEUUXy",
+      "parent_uuid": "",
+      "doc_id": 198118036,
+      "level": 0,
+      "id": 198118036,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "MySQL",
+      "uuid": "0hkfZzZb6gIEUUXy",
+      "url": "vkax2bdy1uowunzh",
+      "prev_uuid": "AsinsLzYh--SiX6r",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "AsinsLzYh--SiX6r",
+      "doc_id": 198118040,
+      "level": 1,
+      "id": 198118040,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "MQ",
+      "uuid": "k47J5q45zbvQtJVf",
+      "url": "in4g5ychqp71gqdv",
+      "prev_uuid": "AsinsLzYh--SiX6r",
+      "sibling_uuid": "-BpEQ3AL6psSf7bR",
+      "child_uuid": "e0XM9wkg9I8qE-1A",
+      "parent_uuid": "",
+      "doc_id": 198117987,
+      "level": 0,
+      "id": 198117987,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Kafka",
+      "uuid": "e0XM9wkg9I8qE-1A",
+      "url": "asgpkibv2g7dog23",
+      "prev_uuid": "k47J5q45zbvQtJVf",
+      "sibling_uuid": "i1BMO9d01CBsIOt8",
+      "child_uuid": "",
+      "parent_uuid": "k47J5q45zbvQtJVf",
+      "doc_id": 198118010,
+      "level": 1,
+      "id": 198118010,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "RabbitMQ",
+      "uuid": "i1BMO9d01CBsIOt8",
+      "url": "ad6gqx5gc9wivta5",
+      "prev_uuid": "e0XM9wkg9I8qE-1A",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "k47J5q45zbvQtJVf",
+      "doc_id": 198117991,
+      "level": 1,
+      "id": 198117991,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Linux",
+      "uuid": "-BpEQ3AL6psSf7bR",
+      "url": "dyr3bs1i2qc6478s",
+      "prev_uuid": "k47J5q45zbvQtJVf",
+      "sibling_uuid": "JAW_1Q5JCUJNvMFV",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 198118094,
+      "level": 0,
+      "id": 198118094,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Language",
+      "uuid": "JAW_1Q5JCUJNvMFV",
+      "url": "nmi3qazkzrigs57u",
+      "prev_uuid": "-BpEQ3AL6psSf7bR",
+      "sibling_uuid": "TCru6nDzdf0cp2pn",
+      "child_uuid": "UHW2NthiiqjDBuhA",
+      "parent_uuid": "",
+      "doc_id": 198117813,
+      "level": 0,
+      "id": 198117813,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Python",
+      "uuid": "UHW2NthiiqjDBuhA",
+      "url": "zzc08rziyemyzzf4",
+      "prev_uuid": "JAW_1Q5JCUJNvMFV",
+      "sibling_uuid": "MhdsxBS3wYkXN4_l",
+      "child_uuid": "",
+      "parent_uuid": "JAW_1Q5JCUJNvMFV",
+      "doc_id": 198117880,
+      "level": 1,
+      "id": 198117880,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Go",
+      "uuid": "MhdsxBS3wYkXN4_l",
+      "url": "kkhvt76aahcg3g2x",
+      "prev_uuid": "UHW2NthiiqjDBuhA",
+      "sibling_uuid": "JPtZgP9vDZo42Wxu",
+      "child_uuid": "",
+      "parent_uuid": "JAW_1Q5JCUJNvMFV",
+      "doc_id": 198117871,
+      "level": 1,
+      "id": 198117871,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Java",
+      "uuid": "JPtZgP9vDZo42Wxu",
+      "url": "ngt2vcxc34s4hmng",
+      "prev_uuid": "MhdsxBS3wYkXN4_l",
+      "sibling_uuid": "",
+      "child_uuid": "qw4fZmZX52KVtdMw",
+      "parent_uuid": "JAW_1Q5JCUJNvMFV",
+      "doc_id": 198117822,
+      "level": 1,
+      "id": 198117822,
+      "open_window": 1,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
+      "title": "Maven",
+      "uuid": "qw4fZmZX52KVtdMw",
+      "url": "dfgo59d95ysm1p3g",
+      "prev_uuid": "JPtZgP9vDZo42Wxu",
+      "sibling_uuid": "aymXZwj8EiEm9roL",
+      "child_uuid": "",
+      "parent_uuid": "JPtZgP9vDZo42Wxu",
+      "doc_id": 198117841,
+      "level": 2,
+      "id": 198117841,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "JUC",
+      "uuid": "aymXZwj8EiEm9roL",
+      "url": "bktgwgifw6wg02d0",
+      "prev_uuid": "qw4fZmZX52KVtdMw",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "JPtZgP9vDZo42Wxu",
+      "doc_id": 198117828,
+      "level": 2,
+      "id": 198117828,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Web服务部署",
+      "uuid": "TCru6nDzdf0cp2pn",
+      "url": "mdgnrd4bgk7h376g",
+      "prev_uuid": "JAW_1Q5JCUJNvMFV",
       "sibling_uuid": "",
       "child_uuid": "",
       "parent_uuid": "",
-      "doc_id": 198117651,
+      "doc_id": 198118140,
       "level": 0,
-      "id": 198117651,
+      "id": 198118140,
       "open_window": 1,
       "visible": 1
     }
