@@ -134,6 +134,3 @@ Github Actions
 示例语雀知识库：[https://www.yuque.com/1874w/yuque-vitepress-template](https://www.yuque.com/1874w/yuque-vitepress-template)  
 示例文档站点：[https://yuque-vitepress.vercel.app](https://yuque-vitepress.vercel.app/)  
 
-https://serverless-api-elog.vercel.app/api/github?user=iwky606&repo=yuque-vitepress&event_type=deploy&token=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
-
-https://serverless-api-elog.vercel.app/api/github?user=xxx&repo=xxx&event_type=deploy&token=xxx
