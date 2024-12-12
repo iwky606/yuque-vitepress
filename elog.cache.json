@@ -177,13 +177,13 @@
     {
       "id": 198117871,
       "doc_id": "kkhvt76aahcg3g2x",
-      "updated": 1733980610000,
+      "updated": 1733980711000,
       "properties": {
         "title": "Go",
         "urlname": "kkhvt76aahcg3g2x",
         "date": "2024-12-11 00:25:18",
-        "updated": "2024-12-12 13:16:50",
-        "description": "https://www.topgoer.com/语法const以及iotaconst (     a = iota   //0     b          //1     c          //2     d = \"ha\"   //独立值，iota += 1     e         ..."
+        "updated": "2024-12-12 13:18:31",
+        "description": "Go语言中文文档语法const以及iotaconst (     a = iota   //0     b          //1     c          //2     d = \"ha\"   //独立值，iota += 1     e          //\"ha\"   iota +..."
       },
       "catalog": [
         {

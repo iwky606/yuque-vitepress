@@ -1,4 +1,4 @@
-[前景 · Go语言中文文档](https://www.topgoer.com/)
+[Go语言中文文档](https://www.topgoer.com/)
 
 # 语法
 ## const以及iota
