@@ -300,6 +300,44 @@
       "realName": "Language",
       "relativePath": "/Language.md",
       "docPath": "docs/docs"
+    },
+    {
+      "id": 201376534,
+      "doc_id": "ccd0iit96ztg9ps0",
+      "updated": 1736065804000,
+      "properties": {
+        "title": "C/C++",
+        "urlname": "ccd0iit96ztg9ps0",
+        "date": "2025-01-05 16:29:09",
+        "updated": "2025-01-05 16:30:04",
+        "description": "各种版本的mingw64https://winlibs.com/"
+      },
+      "catalog": [
+        {
+          "title": "Language",
+          "doc_id": "ccd0iit96ztg9ps0"
+        }
+      ],
+      "realName": "C!C++",
+      "relativePath": "/Language/C!C++.md",
+      "docPath": "docs/docs/Language"
+    },
+    {
+      "id": 198613261,
+      "doc_id": "ytbq4udbtkbt6pta",
+      "updated": 1734162911000,
+      "properties": {
+        "title": "Bilibili",
+        "urlname": "ytbq4udbtkbt6pta",
+        "date": "2024-12-14 15:50:24",
+        "updated": "2024-12-14 15:55:11",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/42461409/1734162778384-5e612d35-603e-4653-91a9-768c994b1eaa.jpeg",
+        "description": "无需手机号注册要求一个gmail邮箱bilibli安卓海外版(play版)---play应用商店下载方式在主页点击登录，使用google方式登录（可以跳过）在设置-账号安全中心-密码设置遇到的问题电脑密码登录会要求绑定手机，可以使用手机扫码登录"
+      },
+      "catalog": [],
+      "realName": "Bilibili",
+      "relativePath": "/Bilibili.md",
+      "docPath": "docs/docs"
     }
   ],
   "catalog": [
@@ -445,7 +483,7 @@
       "url": "nmi3qazkzrigs57u",
       "prev_uuid": "-BpEQ3AL6psSf7bR",
       "sibling_uuid": "TCru6nDzdf0cp2pn",
-      "child_uuid": "UHW2NthiiqjDBuhA",
+      "child_uuid": "2vSvxywUH1hgX8Ki",
       "parent_uuid": "",
       "doc_id": 198117813,
       "level": 0,
@@ -455,10 +493,25 @@
     },
     {
       "type": "DOC",
+      "title": "C/C++",
+      "uuid": "2vSvxywUH1hgX8Ki",
+      "url": "ccd0iit96ztg9ps0",
+      "prev_uuid": "JAW_1Q5JCUJNvMFV",
+      "sibling_uuid": "UHW2NthiiqjDBuhA",
+      "child_uuid": "",
+      "parent_uuid": "JAW_1Q5JCUJNvMFV",
+      "doc_id": 201376534,
+      "level": 1,
+      "id": 201376534,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "Python",
       "uuid": "UHW2NthiiqjDBuhA",
       "url": "zzc08rziyemyzzf4",
-      "prev_uuid": "JAW_1Q5JCUJNvMFV",
+      "prev_uuid": "2vSvxywUH1hgX8Ki",
       "sibling_uuid": "MhdsxBS3wYkXN4_l",
       "child_uuid": "",
       "parent_uuid": "JAW_1Q5JCUJNvMFV",
@@ -534,12 +587,27 @@
       "uuid": "TCru6nDzdf0cp2pn",
       "url": "mdgnrd4bgk7h376g",
       "prev_uuid": "JAW_1Q5JCUJNvMFV",
-      "sibling_uuid": "",
+      "sibling_uuid": "GyOm1MXmxgCVThoG",
       "child_uuid": "",
       "parent_uuid": "",
       "doc_id": 198118140,
       "level": 0,
       "id": 198118140,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Bilibili",
+      "uuid": "GyOm1MXmxgCVThoG",
+      "url": "ytbq4udbtkbt6pta",
+      "prev_uuid": "TCru6nDzdf0cp2pn",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 198613261,
+      "level": 0,
+      "id": 198613261,
       "open_window": 1,
       "visible": 1
     }
