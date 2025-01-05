@@ -304,13 +304,13 @@
     {
       "id": 201376534,
       "doc_id": "ccd0iit96ztg9ps0",
-      "updated": 1736065804000,
+      "updated": 1736065820000,
       "properties": {
         "title": "C/C++",
         "urlname": "ccd0iit96ztg9ps0",
         "date": "2025-01-05 16:29:09",
-        "updated": "2025-01-05 16:30:04",
-        "description": "各种版本的mingw64https://winlibs.com/"
+        "updated": "2025-01-05 16:30:20",
+        "description": "windows各种版本的mingw-w64https://winlibs.com/"
       },
       "catalog": [
         {
