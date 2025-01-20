@@ -114,6 +114,8 @@ tips:
 + 如果就算一个事务id活跃事务列表中，它已经提交了，但是只是创建read view的时候它还在活跃列表中，所以为什么这个不能读呢？答：因为如果这个可以读的话，就会出现不可重复读的问题。
 
 ## 三、锁
+ddl锁相关知识：[https://developer.aliyun.com/article/1111994](https://developer.aliyun.com/article/1111994)
+
 根据粒度划分：
 
 1. 全局锁：即对整个数据库都上锁
