@@ -35,13 +35,13 @@
     {
       "id": 198107019,
       "doc_id": "glreugkyt7cbyh2l",
-      "updated": 1733847800000,
+      "updated": 1751562566000,
       "properties": {
         "title": "Docker",
         "urlname": "glreugkyt7cbyh2l",
         "date": "2024-12-10 21:43:06",
-        "updated": "2024-12-11 00:23:20",
-        "description": "运行启动相关启动用镜像启动一个容器docker [OPTIONS] run IMAGE  -e：在启动是可以加上这个命令，用于给运行的容器添加环境变量。例如,http_proxy=127.0.0.1:7890  -p：指定端口映射，将主机的端口映射到容器的端口。例如，8080:8080  -v..."
+        "updated": "2025-07-04 01:09:26",
+        "description": "docker-compose文件名固定docker-compose.yml1. 启动docker-compose容器docker-compose up -d2. 关闭docker-compose容器docker-compose down3. 查看compose启动的容器docker-compo..."
       },
       "catalog": [],
       "realName": "Docker",
@@ -370,15 +370,66 @@
       "realName": "WSL",
       "relativePath": "/WSL.md",
       "docPath": "docs/docs"
+    },
+    {
+      "id": 209440578,
+      "doc_id": "co61gc9ifn1n7hkq",
+      "updated": 1741453357000,
+      "properties": {
+        "title": "RocketMQ",
+        "urlname": "co61gc9ifn1n7hkq",
+        "date": "2025-03-09 00:54:42",
+        "updated": "2025-03-09 01:02:37",
+        "description": "Docker安装RocketMQ 5.3.4dockcer-compose.ymlversion: '3.8' services:   namesrv:     image: apache/rocketmq:5.3.1     container_name: rmqnamesrv     po..."
+      },
+      "catalog": [
+        {
+          "title": "MQ",
+          "doc_id": "co61gc9ifn1n7hkq"
+        }
+      ],
+      "realName": "RocketMQ",
+      "relativePath": "/MQ/RocketMQ.md",
+      "docPath": "docs/docs/MQ"
+    },
+    {
+      "id": 208222070,
+      "doc_id": "ev29ih8z1iq16gfi",
+      "updated": 1740815775000,
+      "properties": {
+        "title": "Redis",
+        "urlname": "ev29ih8z1iq16gfi",
+        "date": "2025-03-01 15:46:34",
+        "updated": "2025-03-01 15:56:15"
+      },
+      "catalog": [],
+      "realName": "Redis",
+      "relativePath": "/Redis.md",
+      "docPath": "docs/docs"
     }
   ],
   "catalog": [
     {
       "type": "DOC",
+      "title": "Redis",
+      "uuid": "o7h_QJm82wCsRKkg",
+      "url": "ev29ih8z1iq16gfi",
+      "prev_uuid": "",
+      "sibling_uuid": "SN5Cp5f8pVFRTZk2",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 208222070,
+      "level": 0,
+      "id": 208222070,
+      "open_window": 1,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
       "title": "A",
       "uuid": "SN5Cp5f8pVFRTZk2",
       "url": "lnmzi46vznv386p2",
-      "prev_uuid": "",
+      "prev_uuid": "o7h_QJm82wCsRKkg",
       "sibling_uuid": "wt6ymrwHA3oVfu7B",
       "child_uuid": "",
       "parent_uuid": "",
@@ -455,7 +506,7 @@
       "url": "in4g5ychqp71gqdv",
       "prev_uuid": "AsinsLzYh--SiX6r",
       "sibling_uuid": "-BpEQ3AL6psSf7bR",
-      "child_uuid": "e0XM9wkg9I8qE-1A",
+      "child_uuid": "1JV2NV4_bbvf9mG4",
       "parent_uuid": "",
       "doc_id": 198117987,
       "level": 0,
@@ -465,10 +516,25 @@
     },
     {
       "type": "DOC",
+      "title": "RocketMQ",
+      "uuid": "1JV2NV4_bbvf9mG4",
+      "url": "co61gc9ifn1n7hkq",
+      "prev_uuid": "k47J5q45zbvQtJVf",
+      "sibling_uuid": "e0XM9wkg9I8qE-1A",
+      "child_uuid": "",
+      "parent_uuid": "k47J5q45zbvQtJVf",
+      "doc_id": 209440578,
+      "level": 1,
+      "id": 209440578,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "Kafka",
       "uuid": "e0XM9wkg9I8qE-1A",
       "url": "asgpkibv2g7dog23",
-      "prev_uuid": "k47J5q45zbvQtJVf",
+      "prev_uuid": "1JV2NV4_bbvf9mG4",
       "sibling_uuid": "i1BMO9d01CBsIOt8",
       "child_uuid": "",
       "parent_uuid": "k47J5q45zbvQtJVf",

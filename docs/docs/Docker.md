@@ -1,6 +1,24 @@
+# docker-compose
+文件名固定`docker-compose.yml`
+
+## 启动docker-compose容器
+```plain
+docker-compose up -d
+```
+
+## 关闭docker-compose容器
+```plain
+docker-compose down
+```
+
+## 查看compose启动的容器
+```plain
+docker-compose ps
+```
+
+
+
 # 运行启动相关
-
-
 ## 启动用镜像启动一个容器
 ```bash
 docker [OPTIONS] run IMAGE
@@ -113,9 +131,20 @@ nano /etc/docker/daemon.json
 
 ```bash
 {
-    "registry-mirrors": [
-        "https://docker.rainbond.cc" 
-    ]
+  "registry-mirrors": [
+    "https://docker.xuanyuan.me",
+    "https://hub.sakiko.de",
+    "https://docker.hpcloud.cloud",
+    "https://docker.m.daocloud.io",
+    "https://docker.unsee.tech",
+    "https://docker.1panel.live",
+    "http://mirrors.ustc.edu.cn",
+    "https://docker.chenby.cn",
+    "http://mirror.azure.cn",
+    "https://dockerpull.org",
+    "https://dockerhub.icu",
+    "https://hub.rat.dev"
+  ]
 }
 ```
 
@@ -159,4 +188,6 @@ nano ./Dockerfile
 ```bash
 docker build -t [ImageName]:latest .
 ```
+
+
 
